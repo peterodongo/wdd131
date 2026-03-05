@@ -1,0 +1,109 @@
+header{
+    text-align: center;
+    background-color: lightskyblue;
+    
+    
+}
+
+.unify {
+    display: flex;
+    position: flex;
+    flex-direction: row;
+    
+}
+
+
+ul, footer {
+    background-color: lightblue;
+    display: flex;
+    flex-direction: row;
+    gap: 99px;
+    text-align: center;
+    align-items: center;
+    padding: 5px;
+} 
+.profile{
+    padding: 1px;
+    margin: 6px;
+    border-style: solid; ;
+    background-color: white;
+    width: 97%;
+}
+.box{
+    display: flex;
+    flex-direction: row;
+}
+.career {
+    background-color: white;
+    padding: 1px;
+    margin: 9px;
+    width: 70%;
+    border-top-style: solid;
+    
+}
+h1{
+    position: relative;
+    text-align: center;
+    background-color: azure;
+    
+    
+}
+h2{
+    background-color: lightskyblue;
+    text-align: center;
+    position: relative;
+    bottom: 21px;
+}
+
+
+.box img {
+    position: relative;
+    left: 77%;
+    
+}
+
+.box p {
+    position: relative;
+    right: 120px;
+    width: 75%;
+}
+
+.career img {
+    position: relative;
+    left: 5px;
+}
+
+.career p {
+    position: relative;
+    bottom: 190px;
+    left: 31.5%;
+    width: 69%;
+}
+
+.web {
+    display: flex;
+    flex-direction: column;
+    gap: 9px;
+    background-color: bisque;
+    align-items: start;
+    left: 7px;
+    padding: 19px;
+    
+}
+
+h3{
+    position: relative;
+    bottom: 19px;
+    padding: 3px;
+    background-color: lightblue;
+    text-align: center;
+}
+
+.web-dev {
+    padding: 0px;
+    margin: 19px;
+    border-style: solid;
+    width: 47%;
+}
+
+
