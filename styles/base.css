@@ -11,9 +11,16 @@ header{
     flex-direction: row;
     
 }
+.lin {
+    display: flex;
+    text-align: center;
+    gap: 101px;
+    position: relative;
+    text-align: center;
+}
 
 
-ul, footer {
+footer {
     background-color: lightblue;
     display: flex;
     flex-direction: row;
@@ -76,8 +83,8 @@ h2{
 .career p {
     position: relative;
     bottom: 190px;
-    left: 31.5%;
-    width: 69%;
+    left: 38.5%;
+    width: 60%;
 }
 
 .web {
