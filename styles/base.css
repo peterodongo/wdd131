@@ -9,7 +9,11 @@ header{
 body {
   font-family: "Roboto", sans-serif;
 }
+main {
+    padding: 0px;
+    margin: 0px;
 
+}
 
 .unify {
     display: flex;
