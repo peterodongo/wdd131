@@ -32,13 +32,14 @@ main {
 
 footer {
     background-color: lightblue;
-    display: inline-flex;
+    display: inline-grid;
     flex-direction: row;
-    gap: 99px;
+    gap: 3px;
     text-align: center;
     align-items: center;
     padding: 5px;
     width: 99.2%;
+    
 } 
 .profile{
     padding: 1px;
