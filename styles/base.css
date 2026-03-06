@@ -17,7 +17,7 @@ main {
 
 .unify {
     display: flex;
-    position: flex;
+    position: relative;
     flex-direction: row;
     
 }
