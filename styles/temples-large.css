@@ -1,5 +1,7 @@
 /* Styles for larger screens (desktop/tablet) */
 
+@media (min-width: 768px) {
+    
 
 /* Hide hamburger on large screens */
 #hamburger {
@@ -12,11 +14,15 @@
     gap: 15px;
 }
 
+}
+
 /* Additional large screen enhancements */
 header {
-    padding: 20px;
-    font-size: 1.2rem;
-    align-items: right;
+    padding: 2px;
+    font-size: 1rem;
+    align-items: center;
+    justify-content: space-between;
+    
 }
 
 .lin a {
