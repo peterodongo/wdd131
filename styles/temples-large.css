@@ -1,0 +1,30 @@
+/* Styles for larger screens (desktop/tablet) */
+
+
+/* Hide hamburger on large screens */
+#hamburger {
+    display: none; 
+}
+
+.lin {
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+}
+
+/* Additional large screen enhancements */
+header {
+    padding: 20px;
+    font-size: 1.2rem;
+}
+
+.lin a {
+    padding: 10px 15px;
+    text-decoration: none;
+    color: white;
+    transition: background-color 0.3s;
+}
+
+.lin a:hover {
+    background-color: rgba(255, 255, 255, 0.2);
+}
