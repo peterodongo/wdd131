@@ -16,6 +16,7 @@
 header {
     padding: 20px;
     font-size: 1.2rem;
+    align-items: right;
 }
 
 .lin a {
@@ -29,10 +30,3 @@ header {
     background-color: rgba(255, 255, 255, 0.2);
 }
 
-footer {
-    background-color: blue;
-    padding: 10px;
-    text-align: center;
-    color: white;
-    margin-top: 20px;
-}
