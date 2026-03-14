@@ -40,14 +40,14 @@ header {
     }
 }
 
-.photos {
+/*.photos {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
     gap: 27px;
     left: 24%;
     position: relative;
 }
-
+*/
 
 footer {
     background-color: blueviolet;

@@ -8,7 +8,7 @@
     display: none; 
 }
 
-.lin {
+nav.lin {
     display: flex;
     flex-direction: row;
     gap: 15px;
@@ -17,14 +17,7 @@
 
 }
 
-/* Additional large screen enhancements */
-header {
-    padding: 2px;
-    font-size: 1rem;
-    align-items: center;
-    justify-content: space-between;
-    
-}
+
 
 .lin a {
     padding: 10px 15px;
@@ -34,7 +27,7 @@ header {
 }
 
 .lin a:hover {
-    background-color: rgba(255, 255, 255, 0.2);
+    background-color: violet;
 }
 
 
