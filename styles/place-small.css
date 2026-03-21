@@ -1,3 +1,10 @@
+:root {
+    font-family: 'Roboto', sans-serif;
+    background-color: white;
+    color: black;
+}
+
+
 @media (max-width: 800px) {
 
     .mobile {
@@ -11,7 +18,7 @@
         border: none;
         color: white;
         left: 0px;
-        bottom: 600px;
+        bottom: 613px;
         width: 290px;
         height: 50px;
     }
