@@ -1,0 +1,104 @@
+/* ===== RESET ===== */
+body {
+    margin: 0;
+    font-family: "Roboto", sans-serif;
+}
+
+/* ===== HEADER ===== */
+header {
+    background-color: #c4001d;
+    color: white;
+    text-align: center;
+    padding: 15px;
+}
+
+/* ===== MAIN IMAGE CONTAINER ===== */
+.large {
+    position: relative;
+}
+
+.large img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+/* ===== OVERLAY CARDS ===== */
+.box-one, .box-two {
+    background: rgba(255, 255, 255, 0.85);
+    padding: 15px;
+    border-radius: 5px;
+    position: absolute;
+    width: 220px;
+}
+
+/* LEFT CARD (DATA) */
+.box-one {
+    top: 20%;
+    left: 5%;
+}
+
+/* RIGHT CARD (WEATHER) */
+.box-two {
+    top: 25%;
+    right: 5%;
+}
+
+/* HEADINGS */
+h2 {
+    background-color: #0a7f4f;
+    color: white;
+    padding: 5px;
+    margin-top: 0;
+}
+
+/* FLEX CONTENT */
+.info, .status {
+    display: flex;
+    justify-content: space-between;
+}
+
+/* ===== FOOTER ===== */
+footer {
+    background-color: #c4001d;
+    color: white;
+    text-align: center;
+    padding: 15px;
+}
+
+/* ===== MOBILE VIEW ===== */
+@media (max-width: 799px) {
+
+    /* REMOVE OVERLAY EFFECT */
+    .box-one, .box-two {
+        position: static;
+        width: auto;
+        margin: 10px;
+    }
+
+    /* STACK LAYOUT */
+    main {
+        display: flex;
+        flex-direction: column;
+    }
+
+    /* SHOW MOBILE IMAGE */
+    .mobile img {
+        display: block;
+        width: 100%;
+    }
+
+    /* HIDE DESKTOP IMAGE */
+    .large img {
+        display: none;
+    }
+}
+
+/* ===== DESKTOP VIEW ===== */
+@media (min-width: 800px) {
+
+    /* HIDE MOBILE IMAGE */
+    .mobile img {
+        display: none;
+    }
+}

@@ -1,0 +1,84 @@
+@media (max-width: 800px) {
+
+    .mobile {
+        display: block;
+        position: relative;
+        font-size: 2rem;
+        background: green;
+        padding-top: 12px;
+        padding-bottom: 0px;
+        padding-right: none;
+        border: none;
+        color: white;
+        left: 0px;
+        bottom: 600px;
+        width: 290px;
+        height: 50px;
+    }
+}
+
+header {
+    background-color: red;
+    padding: 3px;
+    text-align: center;
+    color: white;
+    width: 284px;
+
+}
+
+.box-one {
+    display: column;
+    position: relative;
+    background-color: lightgray;
+    padding-left: 10px;
+    width: 280px;      
+    margin: 10px;
+    border-radius: 5px;
+    top: 411px;
+    right: 10px;
+    text-align: center;
+    
+}
+
+
+.info {
+    display: flex;
+    position: relative;
+    left: 45px;
+    
+}
+
+.box-two {
+    display: column;
+    position: relative;
+    background-color: lightgray;
+    padding-left: 10px;
+    width: 282px;
+    margin: 10px;
+    border-radius: 5px;
+    text-align: center;
+    top: 392px;
+    right: 11px;
+   
+}
+.status {
+    display: flex;
+    position: relative;
+    left: 45px;
+    
+}
+
+.large img{
+    display: none;
+}
+
+
+footer {
+    background-color: red;
+    padding: 3px;
+    text-align: center;
+    color: white;
+    position: relative;
+    width: 285px;
+    top: 315px;
+}
