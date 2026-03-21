@@ -28,7 +28,7 @@ header::after {
 
 
 .box-one {
-    display: column;
+    display: grid;
     position: relative;
     background-color: lightgray;
     padding-left: 10px;
@@ -44,7 +44,7 @@ header::after {
 }
 
 .box-two {
-    display: column;
+    display: grid;
     position: relative;
     bottom: 620px;
     left: 1020px;
