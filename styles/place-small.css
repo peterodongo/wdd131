@@ -26,7 +26,7 @@
 }
 
 header {
-    background-color: red;
+    background-color: rgb(87, 9, 9);
     padding: 3px;
     text-align: center;
     color: white;
@@ -65,7 +65,7 @@ header {
     margin: 10px;
     border-radius: 5px;
     text-align: center;
-    top: 420px;
+    top: 400px;
     right: 11px;
    
 }
@@ -82,7 +82,7 @@ header {
 
 
 footer {
-    background-color: red;
+    background-color: rgb(87, 9, 9);
     padding: 3px;
     text-align: center;
     color: white;

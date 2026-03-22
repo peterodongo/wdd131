@@ -18,7 +18,7 @@ header {
 }   
 
 header::after {
-    background-color: red;
+    background-color: rgb(87, 9, 9);
     padding: 3px;
     text-align: center;
     color: white;
@@ -79,7 +79,7 @@ picture {
 }
 
 footer {
-    background-color: red;
+    background-color: rgb(87, 9, 9);
     padding: 3px;
     text-align: center;
     color: white;
