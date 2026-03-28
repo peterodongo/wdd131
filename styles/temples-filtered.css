@@ -1,0 +1,59 @@
+header {
+   
+    background-color: blueviolet;
+    padding: 1px;
+    border: 1px;
+    margin: 2px;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    gap: 90px;
+    color: white;
+    
+}
+
+#hamburger {
+    position: relative;
+    font-size: 2rem;
+    background: none;
+    border: none;
+    color: white;
+}
+
+@media (max-width: 768px) {
+    #hamburger {
+        display: block;
+    }
+    .lin {
+        display: none;
+        flex-direction: column;
+        position: relative;
+        top: 100%;
+        left: 0;
+        width: 100%;
+        background-color: blueviolet;
+        padding: 10px;
+        color: white;
+    }
+    .lin.show {
+        display: flex;
+    }
+}
+
+/*.photos {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 27px;
+    left: 24%;
+    position: relative;
+}
+*/
+
+footer {
+    background-color: blueviolet;
+    padding: 10px;
+    text-align: center;
+    color: white;
+    margin-top: 20px;
+}
+
