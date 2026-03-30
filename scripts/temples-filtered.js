@@ -2,7 +2,7 @@ const hamburger = document.querySelector("#hamburger");
 const menu = document.querySelector("#menu");
 
 
-// Toggle Menu for Mobile
+
 hamburger.addEventListener("click", () => {
     menu.classList.toggle("show");
     hamburger.textContent = menu.classList.contains("show") ? "X" : "☰";
@@ -65,22 +65,22 @@ const temples = [
     imageUrl:
     "https://content.churchofjesuschrist.org/templesldsorg/bc/Temples/photo-galleries/mexico-city-mexico/400x250/mexico-city-temple-exterior-1518361-wallpaper.jpg"
   },
-  // Add more temple objects here...
+  
 ];
 
-// Select the <main> element where the temples will be displayed
+
 const mainElement = document.querySelector("main");
 
 function displayTemples(filteredTemples) {
-  // Clear the current content so it doesn't duplicate
+  
   mainElement.innerHTML = "";
 
   filteredTemples.forEach(temple => {
-    // 1. Create a section/card for the temple
+   
     let card = document.createElement("section");
     card.classList.add("temple-card");
 
-    // 2. Create the HTML content for the card
+    
     card.innerHTML = `
       <h3>${temple.templeName}</h3>
       <p><span>Location:</span> ${temple.location}</p>
@@ -89,17 +89,17 @@ function displayTemples(filteredTemples) {
       <img src="${temple.imageUrl}" alt="${temple.templeName}" loading="lazy">
     `;
 
-    // 3. Add the card to the main element
+
     mainElement.appendChild(card);
   });
 }
 
 
-// Call the function to display all temples when the page loads
+
 displayTemples(temples);
 
 
-// Filter Event Listeners
+
 document.querySelector("#home").addEventListener("click", () => {
   displayTemples(temples);
 });
