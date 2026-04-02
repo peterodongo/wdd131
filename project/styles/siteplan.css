@@ -32,8 +32,8 @@ header, footer {
     }
     
     footer {
-        position: absolute;
-        top: 544px;
+        position: relative;
+       
     }
 
    
