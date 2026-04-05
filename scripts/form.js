@@ -34,10 +34,10 @@ if (productSelect) {
     products.forEach(product => {
         const option = document.createElement("option");
         
-        // Instruction: array's 'id' is used for the value field
+        // array's 'id' is used for the value field
         option.value = product.id; 
         
-        // Instruction: array's 'name' field is used for the display
+        // array's 'name' field is used for the display
         option.textContent = product.name; 
         
         productSelect.appendChild(option);
