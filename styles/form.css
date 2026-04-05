@@ -7,6 +7,18 @@ header, footer {
   
 }
 
+header {
+    display: block;
+    position: relative;
+    bottom: 75px;
+}
+
+footer {
+    display: block;
+    position: relative;
+    bottom: 30px;
+}
+
 form {
     position: relative;
     display: grid;
@@ -17,6 +29,7 @@ form {
     border-radius: 5px;
     background-color: #f9f9f9;
     gap: 35px;
+    bottom: 70px;
 }
 
 .features {
