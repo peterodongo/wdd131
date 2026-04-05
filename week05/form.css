@@ -1,0 +1,42 @@
+header, footer {
+    background-color: #0a7f4f;
+    color: white;
+    text-align: center;
+    padding: 15px;
+
+  
+}
+
+form {
+    position: relative;
+    display: grid;
+    max-width: 400px;
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+    gap: 35px;
+}
+
+.features {
+
+    display: flex;
+    flex-direction: column;
+    gap: 0px;
+}
+
+button {
+    position: relative;
+    display: block;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: grey;
+    color: white;
+    width: 70%;
+    left: 13%;
+    border-radius: 5px;
+    cursor: pointer;
+    top: 3px;
+}
+

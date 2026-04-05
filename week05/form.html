@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>WDD 131 - Dynamic Web Fundamentals - Peter Odongo</title>
+    <meta name="description" content="This is the home page for WDD 131 – Dynamic Web Fundamentals by Your Name. It features key concepts in HTML, CSS, and JavaScript for responsive web development.">
+    <meta name="author" content="Peter Odongo">
+    <link rel="stylesheet" href="form.css">  
+    <script src="scripts/form.js" defer></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+
+</head>
+<body>
+    <header>
+        <h1>Product Review </h1> 
+    </header>
+        <main>
+            <form id="reviewForm">
+                <label for="productName">Product Name:</label>
+               
+                <select id="products" name="products" required>
+                    <option value="" selected disabled hidden>Select a Product ...</option>
+                    <option value="prod1">Product A</option>
+                    <option value="prod2">Product B</option>
+                    <option value="prod3">Product C</option>
+                 </select>
+
+                <div class="rating">
+                    <p>Overall Rating (1-5):</p>
+                    <input type="radio" id="rating1" name="rating" value="1" required>
+                    <label for="rating1">1</label>
+                   
+                    <input type="radio" id="rating2" name="rating" value="2" required>
+                    <label for="twostar">2</label>
+                    
+                    <input type="radio" id="rating3" name="rating" value="3" required>
+                    <label for="rating3">3</label>
+                    
+                    <input type="radio" id="rating4" name="rating" value="4" required>
+                    <label for="rating4">4</label>
+                   
+                    <input type="radio" id="fivestar" name="rating" value="5" required>
+                    <label for="rating5">5</label>
+                </select>
+
+                <p for="date">date of instalation:</p> 
+                <input type="date" id="date" name="date" required>
+
+               <div class ="features">
+                    <p>which features did you find useful?</p>
+                        <label for="durability">durability</label>
+                        <input type="checkbox" id="durability" name="durability"  required>
+
+                        <label for="use">ease of use</label>
+                        <input type="checkbox" id="use" name="use"  required>
+
+                        <label for="performance">performance</label>
+                        <input type="checkbox" id="performance" name="performance"  required>
+
+                        <label for="design">design</label>
+                        <input type="checkbox" id="design" name="design"  required>
+               </div>
+                <label for="review">written Review(optional):</label>
+                <textarea id="review" name="review" rows="5" cols="52" required></textarea>
+
+                <label for="recommend">YourName(Optional):</label>
+                <input type="text" id="recommend" name="recommend" required>
+
+                <button type="submit">post Review</button>
+            </form>
+        </main>
+        <footer>
+            <p>©️<span id="currentyear"></span>,     Peter odongo  💠  Nairobi, Kenya</p>
+            <p id="lastModified"></p>
+        </footer>
+    </body>
+</html>
