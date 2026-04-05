@@ -19,7 +19,7 @@ footer {
     bottom: 50px;
 }
 
-article {
+form {
     position: relative;
     display: grid;
     max-width: 400px;
