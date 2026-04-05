@@ -53,3 +53,8 @@ button {
     top: 3px;
 }
 
+.rating {
+    display: flex;
+    flex-direction: row;
+    gap: 0px;
+}
