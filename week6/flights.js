@@ -16,7 +16,7 @@ const airlines = [
     hub: "Jomo Kenyatta International Airport",
     price: 715,
     imageUrl:
-    "pexels-andromeda99-19831908.jpg"
+    "kenya-airways.jpg"
   },
   {
     airlineName: " Ethiopian Airlines",
@@ -24,7 +24,7 @@ const airlines = [
     hub: "Bole International Airport",
     price: 895,
     imageUrl:
-    "pexels-pham-huynh-tuan-vy-2152329497-32219216.jpg"
+    "ethiopian-airlines.jpg"
   },
   {
     airlineName: "RwandAir",
@@ -32,7 +32,7 @@ const airlines = [
     hub: "Kigali International Airport",
     price: 1200,
     imageUrl:
-    "pexels-quang-nguyen-vinh-222549-8281064.jpg"
+    "rwandair.jpg"
   },
   {
     airlineName: "South African Airways",
@@ -40,7 +40,7 @@ const airlines = [
     hub: "OR Tambo International Airport",
     price: 1500,
     imageUrl:
-    "pexels-planespotter-geneva-1877406873-36897685.jpg"
+    "south-Airways.jpg"
   },
   {
     airlineName: "EgyptAir",
@@ -48,7 +48,7 @@ const airlines = [
     hub: "Cairo International Airport",
     price: 1000,
     imageUrl:
-    "pexels-planespotter-geneva-1877406873-36897685.jpg"
+    "egyptair.jpg"
   },
   {
     airlineName: "Qatar Airways",
@@ -56,7 +56,7 @@ const airlines = [
     hub: "Hamad International Airport",
     price: 1200,
     imageUrl:
-    "pexels-quang-nguyen-vinh-222549-8281064.jpg"
+    "qatar-airways.jpg                            "
   },
   
 ];
