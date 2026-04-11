@@ -71,7 +71,7 @@ function displayHome() {
     </div>
 
     <div class="small">
-      <img src="onoone.jpg" alt="small">
+      <img src="mexa.jpg" alt="small">
     </div>
   `;
 }
