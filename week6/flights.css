@@ -1,0 +1,74 @@
+header, footer{
+    background-color: lightblue;
+    color: blue;
+    display: flex;
+    padding: 0px;
+    justify-content: space-between;
+    align-items: center;    
+
+}
+
+.lin.show {
+    display: flex;
+    flex-direction: column;
+}
+
+@media (min-width: 768px) {
+    header, footer{
+        flex-direction: row;
+    }
+    #hamburger{
+        display: none;
+    }
+
+    .large img{
+        display: block;
+    }
+
+    .small img{
+        display: none;
+    }
+
+    .support_team-card textarea {
+    width: 65%;
+    height: 120px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+}
+    
+}
+
+@media (max-width: 767px) {
+    header, footer{
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    footer{
+        flex-direction: column;
+        text-align: center;
+    }
+    .lin{
+        display: none;
+    }
+    #hamburger{
+        display: block;
+        background-color: transparent;
+        border: none;
+        color: white;
+        font-size: 24px;
+        cursor: pointer;
+    }
+
+    .small img{
+        display: block;
+    }
+    .large img{
+        display: none;
+    }
+}
+
+a:hover {
+    color: white;
+    text-decoration: none;
+}
